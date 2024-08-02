@@ -1,7 +1,7 @@
 // module
 module.exports = function () {
   console.log('hello from a commonjs module');
-};
+}; // sample code
 
 // ES MODULES
 
