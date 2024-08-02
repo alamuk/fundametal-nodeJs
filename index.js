@@ -36,6 +36,7 @@ const server = http.createServer((req, res) => {
   const { query, pathname } = url.parse(req.url, true);
 
   // console.log(pathname);
+
   // console.log(query);
   // overview page//////
   if (pathname === '/' || pathname === '/overview') {
