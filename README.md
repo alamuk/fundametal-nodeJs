@@ -97,3 +97,32 @@ Making new repository in machine:
 ~ git push -u origin main 
 
 ```
+###
+1. Server 
+2. clint: browser- google
+3. IP address -127.0.0.1 
+4. Port number - 8000 
+5. DNS server  
+6. TCP/IP socket connection 
+7. http request = HyperText Transfer Protocol
+8. https = tls/ ssl = encrypted 
+8. URL = use url to communicate with server.
+### HTTP METHOD: 
+* http request / http respond 
+1. GET - requesting data
+2. POST - sending data
+3. PUT/ Patch  = modify data
+
+### HTTP request / respond 
+* status code 
+* httm req header 
+* Body : usually contain - HTML - of the website
+* / JSON data coming from an API / Other data 
+
+### TCP/IP socket connection 
+
+
+
+
+
+
