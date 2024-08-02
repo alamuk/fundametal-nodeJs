@@ -1,0 +1,17 @@
+{
+  "name": "node-basic",
+  "version": "1.0.0",
+  "description": "``` \r this will create package.json file -\r which is configuration of our project file \r all kind of data about the project store here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MS ALAM",
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
