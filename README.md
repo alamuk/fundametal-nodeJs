@@ -106,7 +106,7 @@ Making new repository in machine:
 6. TCP/IP socket connection 
 7. http request = HyperText Transfer Protocol
 8. https = tls/ ssl = encrypted 
-8. URL = use url to communicate with server.
+9. URL = use url to communicate with server.
 ### HTTP METHOD: 
 * http request / http respond 
 1. GET - requesting data
@@ -121,7 +121,56 @@ Making new repository in machine:
 
 ### TCP/IP socket connection 
 
+### DYNAMIC WEBSITE = WEB APPLICATION
+### STATIC WEBSITES
+### API BASED WEBSITES 
 
+
+### single thread
+``` 
+not blocking the thread 
+1. initialise the program 
+2. excute "top level" code
+3. requre modules 
+4. Register event callbacks 
+5. start running event loop 
+event loop = this is the heart of the entire node architecture. where most of the work is done in our app
+= heavy tasks done by 'THREAD POOL'
+
+```
+### thread pool
+``` 
+it bring addition 4 threads or more 
+- offload work from the event loop 
+- handle heavy ("expensive") tasks: 
+example - File System API, cryptography, Compression, DNS lookups. 
+```
+
+### Event loop
+1. New Http request 
+2. Timer expired
+3. finishing file reading 
+4. it has many phases 
+```
+- all the application code that is inside callback function(non-top-level code)
+- Node.js is build around callback functions
+- Event-driven architecture: 
+a. events are emitted
+b. event loop picjs them up 
+c. callbacks are called
+- Event loop does orchestration. 
+```
+
+## Don't Block the event loop 
+``` 
+- dont use sync version of functions int he fs , crypto and zlip modules in callback functions.
+- dont perform complex calculations ( e.g. loops inside loops)
+- Be carefull with JSON in large objects 
+- dont use too complex regular expressions. (e.g. nested quantufiers) 
+
+```
+
+## Tick 
 
 
 
