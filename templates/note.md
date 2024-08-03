@@ -7,7 +7,7 @@ every single treaded as a modul
 ```
 ### node modules = all kind of additional functionality store in a module. 
 to read the file = we need to use = Node File Modules 
-to use it  - we need require function store in a fs  variable. to use in the file. 
+to use it - we need require function store in a fs  variable. to use in the file. 
 
 ### fs = File System
 * this is use for reading data and writing data right to the file system.
@@ -160,7 +160,7 @@ it is exception with require(. )  meaning where this module is in.
 
 
 ### Slugify
-it is a string involves converting it to a URL-friendly format like - easy to read, typically by making it lowercase, 
+it is a string involves converting it to a URL-friendly SLUGS - easy to read, typically by making it lowercase, 
 replacing spaces with hyphens, and removing special characters.
 
 
